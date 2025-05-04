@@ -1,0 +1,91 @@
+/* Reset + podstawy */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f9f9fb;
+    color: #333;
+    line-height: 1.7;
+    font-size: 16px;
+}
+
+/* Kontener */
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+/* Nagłówek */
+.header {
+    background-color: #004080;
+    color: white;
+    padding: 1rem 0;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.logo {
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+/* Tytuł */
+.title {
+    font-size: 2.2rem;
+    color: #004080;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+/* Sekcje regulaminu */
+.regulamin section {
+    margin-bottom: 2rem;
+    padding: 1rem;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+.regulamin h2 {
+    font-size: 1.4rem;
+    color: #003366;
+    margin-bottom: 1rem;
+}
+
+ul {
+    list-style: disc;
+    padding-left: 1.5rem;
+}
+
+li {
+    margin-bottom: 0.6rem;
+}
+
+/* Stopka */
+.footer {
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.9rem;
+    color: #666;
+    margin-top: 2rem;
+}
+
+/* Responsywność */
+@media (max-width: 600px) {
+    .container {
+        padding: 1rem;
+    }
+
+    .title {
+        font-size: 1.6rem;
+    }
+
+    .logo {
+        font-size: 1.4rem;
+    }
+}

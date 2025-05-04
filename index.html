@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Rejestracja</title>
+  <link rel="stylesheet" href="index.css" />
+</head>
+<body>
+  <form class="form" action="rejestracja.php" method="POST"> <!-- Zmieniono na 'rejestracja.php' -->
+    <p class="title">Rejestracja</p>
+    <p class="message">Zarejestruj się teraz i uzyskaj pełny dostęp do naszej aplikacji.</p>
+
+    <div class="flex">
+      <label>
+        <input class="input" type="text" name="name" placeholder=" " required />
+        <span>Imię</span>
+      </label>
+      <label>
+        <input class="input" type="text" name="username" placeholder=" " required />
+        <span>Nazwa użytkownika</span>
+      </label>
+    </div>
+
+    <label>
+      <input class="input" type="email" name="email" placeholder=" " required />
+      <span>Email</span>
+    </label>
+
+    <label>
+      <input class="input" type="password" name="password" placeholder=" " required />
+      <span>Hasło</span>
+    </label>
+
+    <label>
+      <input class="input" type="password" name="confirm" placeholder=" " required />
+      <span>Potwierdź hasło</span>
+    </label>
+
+    <label>
+      <input class="input" type="text" name="code" placeholder=" " required />
+      <span>Kod dostępu</span>
+    </label>
+
+    <button class="submit" type="submit">Zarejestruj</button>
+    <p class="signin">Masz już konto? <a href="login.html">Zaloguj się</a></p>
+  </form>
+</body>
+</html>

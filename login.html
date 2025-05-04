@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <form class="form" method="POST" action="login.php">
+        <p class="title">Login</p>
+        <p class="message">          Zaloguj się teraz i korzystaj z naszej aplikacji.          </p>
+
+        <label>
+            <input class="input" type="text" name="username" placeholder="Nazwa" required>
+        </label>
+
+        <label>
+            <input class="input" type="email" name="email" placeholder="Email" required>
+        </label>
+
+        <label>
+            <input class="input" type="password" name="password" placeholder="Hasło" required>
+        </label>
+
+        <label>
+            <input class="input" type="text" name="code" placeholder="Kod" required>
+        </label>
+
+        <button class="submit">Zaloguj się</button>
+        <p class="signin">Nie masz jeszcze konta? <a href="singup.html">Zarejestruj się</a></p>
+    </form>
+</body>
+</html>
